@@ -66,7 +66,7 @@ Thirty-two images have been downloaded from internet to test the accuracy. Here 
 
 ![][image5]
 
-The classifer is 71.88% accurate in predicting traffic signs. Here are the predicted results.
+The classifer is **71.88%** accurate in predicting traffic signs. Here are the predicted results.
 
 ![][image6]
 
