@@ -30,3 +30,47 @@ The implementation is done using python. The ![code][Code] implementation consis
 
 ## Reflection
 
+After the data file is loaded, the data set is analyzed to get familarize with the data.
+There are 43 types of traffic signs in the data. The following histogram figure shows the distributation of number of images in each class.
+
+![][image1]
+
+The distributation of images in training/testing/validation sets are as follows:
+
+![][image2]
+
+Here are some of the sample images from the training dataset
+
+![][image3]
+
+The training is performed using following parameters
+`EPOCHS = 150`
+`BATCH_SIZE = 256`
+`rate = 0.0005`
+
+The structure of the neural network is as follows:
+
+* Layer-1: Convolutional. Input = 32x32x3. Output = 28x28x6
+* Layer-1 Pooling: Input = 28x28x6. Output = 14x14x6
+* Layer-2: Convolutional. Output = 10x10x16
+* Layer-2 Pooling: Input = 10x10x16. Output = 5x5x16
+* Flatten. Input: = 5x5x16. Output = 400
+* Layer-3: Fully Connected. Input = 400. Output = 120
+* Layer-4: Fully Connected. Input = 120. Output = 84
+* Layer-5: Fully Connected. Input = 84. Output = 10
+
+Here is the validation accuracy against the EPOCHS
+
+![][image4]
+
+Thirty-two images have been downloaded from internet to test the accuracy. Here are those images with the class labels:
+
+![][image5]
+
+The classifer is 71.88% accurate in predicting traffic signs. Here are the predicted results.
+
+![][image6]
+
+The following figure shows the prediction probability for some of the sample images. The top five possible classes along with their probabilities are shown as the title.
+
+![][image7]
