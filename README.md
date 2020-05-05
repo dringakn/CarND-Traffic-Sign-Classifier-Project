@@ -12,7 +12,7 @@
 
 Overview
 ---
-In this project, uses Tensorflow, deep neural networks and convolutional neural networks, to classify road traffic signs. Training and validattion of a LeNet-5 model is performed, so that it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There is a pickled dataset in which there are resized images of 32x32. It contains a training, validation and test set. 
+This project, uses Tensorflow, deep neural networks and convolutional neural networks, to classify road traffic signs. Training and validattion of a LeNet-5 model is performed, so that it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There is a pickled dataset in which there are resized images of 32x32. It contains a training, validation and test set. 
 
 After the model is trained, it is tested on 32 unseen images of German traffic signs that are found on the web. 
 
