@@ -58,7 +58,7 @@ The structure of the neural network is as follows:
 * Layer-4: Fully Connected. Input = 120. Output = 84
 * Layer-5: Fully Connected. Input = 84. Output = 10
 
-Here is the validation accuracy against the EPOCHS
+Here is the validation accuracy against the EPOCHS during the training:
 
 ![][image4]
 
