@@ -12,25 +12,24 @@
 
 Overview
 ---
-This project, uses Tensorflow, deep neural networks and convolutional neural networks, to classify road traffic signs. Training and validattion of a LeNet-5 model is performed, so that it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There is a pickled dataset in which there are resized images of 32x32. It contains a training, validation and test set. 
+This project, uses Tensorflow, deep neural networks and convolutional neural networks, to classify road traffic signs. Training and validattion of a LeNet-5 model is performed, so that it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There is a pickled dataset which contains training, validation and test data sets. Each image withing the data is of size 32x32x3. 
 
-After the model is trained, it is tested on 32 unseen images of German traffic signs that are found on the web. 
+After the model is trained, it is tested on 32 unseen German traffic signs images that were found on the web. 
 
 
 The Project
 ---
-The implementation is done using python. The ![code][Code] implementation consists of follwing steps:
+The implementation is done using python programming language. The ![code][Code] implementation consists of follwing steps:
 
-* Load the data set
+* Loading of the data set
 * Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
+* Design, train and testing of LeNet-5 model architecture
+* Use of the trained model to make predictions on new images
 * Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
 
 ## Reflection
 
-After the data file is loaded, the data set is analyzed to get familarize with the data.
+After the data file is loaded, the data set are analyzed to familarize with the data.
 There are 43 types of traffic signs in the data. The following histogram figure shows the distributation of number of images in each class.
 
 ![][image1]
